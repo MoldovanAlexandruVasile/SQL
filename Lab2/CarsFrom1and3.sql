@@ -1,4 +1,4 @@
---All the cars with from the car shop with ID 1 and 3 that have a promotion
+--All the cars with a promotion from the car shop with ID 1 and 3 that have a promotion
 
 SELECT c.CarID, c.CarModel, c.Price, p.Procent, c.StoreID
 FROM Car c
