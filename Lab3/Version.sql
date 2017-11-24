@@ -1,0 +1,6 @@
+USE StoreDB
+GO
+CREATE TABLE DBVersion
+(
+	VersionID INT PRIMARY KEY
+)
