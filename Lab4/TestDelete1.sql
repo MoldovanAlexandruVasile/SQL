@@ -1,0 +1,9 @@
+USE StoreDB
+GO
+CREATE PROCEDURE TestDelete1
+AS
+BEGIN
+	DELETE Contract
+	DELETE PromoCar
+	DELETE Car
+END

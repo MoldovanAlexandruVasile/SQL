@@ -1,0 +1,8 @@
+USE StoreDB
+GO
+CREATE PROCEDURE TestDelete
+AS
+BEGIN
+	DELETE Office
+	DELETE Floor
+END

@@ -1,0 +1,8 @@
+USE StoreDB
+GO
+
+CREATE PROCEDURE TestRuns
+AS
+BEGIN
+	
+END
