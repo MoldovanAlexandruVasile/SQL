@@ -1,0 +1,15 @@
+USE StoreDB
+GO
+IF OBJECT_ID(N'ContractF', N'IF') IS NOT NULL
+	DROP FUNCTION ContractF
+GO
+CREATE FUNCTION ContractF (@CNP VARCHAR(50))
+RETURNS TABLE 
+AS 
+RETURN ( 
+	SELECT CNP, COUNT(CNP) AS 'Total number of cars bought by client' 
+	FROM Contract 
+	WHERE CNP = @CNP 
+	GROUP BY CNP 
+	); 
+GO
