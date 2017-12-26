@@ -1,0 +1,4 @@
+CREATE VIEW ViewCRUDOffice
+AS
+SELECT *
+FROM Office

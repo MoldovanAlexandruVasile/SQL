@@ -1,0 +1,7 @@
+USE StoreDB
+GO
+CREATE PROCEDURE RunViewCRUDEmployeeClient
+AS
+BEGIN
+	SELECT * FROM ViewCRUDEmployeeClient
+END
